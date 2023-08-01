@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Shakira Lundu</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Shakira Lundu</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" 
+        alt="shakira profile picture" 
+        class = "profile-pic"/>
+        
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shakira lundu</h1>
+        <p class="section__text__p2"> A Professional Photographer</p>
+        <div class="btn-container">
+          
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Know More About</p>
+      <h1 class="title">Shakira</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>10 years as an <br/> experienced freelancer and contracted photographer working at big name companies</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>My Basic bio</h3>
+              <p>i'm Shakira Lundu, an innovative and professional photographer with a lot of experience in taking captivating digital photos.<br>
+              I enjoy exploring new places and capturing them with my digital eye.
+              <br>Also an avid chef who loves trying out new recipies in the kitchen. 
+              <br>P.S Local cuisines are my favourite😋</p>
+            </div>
+          </div>
+          <div class="text-container">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experiences</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Know More about skills and experiences </h2>
+            <div class="article-container">
+              <article>
+
+                <div>
+                  <h3>Pro Photography</h3>
+                  <p>Want some professionally tuned photos, contact your girl for best in the business.</p>
+                </div>
+              </article>
+              <article>
+               
+                <div>
+                  <h3>Experienced programmer</h3>
+                  <p>I have a belt of languages i am fluent in too, </p>
+                </div>
+              </article>
+              <article>
+                
+                <div>
+                  <h3>Fine Dinning</h3>
+                  <p>Up for some excuisite dinner with taste overload, Try my Chicken alfredo pasta sometime</p>
+                </div>
+              </article>
+              <article>
+
+                <div>
+                  <h3>Guitarist</h3>
+                  <p>I also love playing the guitar in my pass time moments</p>
+                </div>
+                
+              </article>
+              <article>
+               
+                
+                
+              </article>
+            </div>
+          </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+         
+          <p><a href="mailto:examplemail@gmail.com">Bis19-slundu@poly.ac.mw</a></p>
+        
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
